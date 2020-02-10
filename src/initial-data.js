@@ -35,6 +35,33 @@ export default initialData;
 // }
 // The destination can be null when the use drops outsite of a list
 
+// Example of values used in callbacks onDragStart, onDragUpdate, onDragEnd
+//
+// onDragStart
+// const start = {
+//   draggableId: "task-1",
+//   type: "TYPE",
+//   source: {
+//     droppableId: "column-1",
+//     index: 0,
+//   }
+// }
+//
+// onDragUpdate
+// const update = {
+//   ...start,
+//   destination: {
+//     droppableId: "column-1",
+//     index: 1,
+//   }
+// }
+//
+// onDragEnd
+// const result = {
+//   ...update,
+//   reason: "DROP"
+// }
+
 // Example of snapshots for draggable and droppable items
 //
 // Draggable
