@@ -34,3 +34,17 @@ export default initialData;
 //   },
 // }
 // The destination can be null when the use drops outsite of a list
+
+// Example of snapshots for draggable and droppable items
+//
+// Draggable
+// const draggableSnapshot = {
+//   isDragging: true,
+//   draggingOver: "column-1",
+// }
+//
+// Drappable
+// const droppableSnapshot = {
+//   isDraggingOver: true,
+//   draggingOverWith: "task-1",
+// }
