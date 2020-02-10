@@ -1,4 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The course is available at https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd
+It is for the react-beautiful-dnd lib
 
 ## Available Scripts
 
