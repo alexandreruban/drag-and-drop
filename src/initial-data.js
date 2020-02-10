@@ -17,3 +17,20 @@ const initialData = {
 }
 
 export default initialData;
+
+// Example of a result when you drop :
+//
+// const result = {
+//   draggableId: "task-1",
+//   type: "TYPE",
+//   reason: "DROP",
+//   source: {
+//     droppableId: "column-1",
+//     index: 0,
+//   },
+//   destination: {
+//     droppableId: "column-1",
+//     index: 1,
+//   },
+// }
+// The destination can be null when the use drops outsite of a list
